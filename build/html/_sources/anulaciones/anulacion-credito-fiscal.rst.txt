@@ -1,11 +1,12 @@
 Anulación de Comprobante de Crédito Fiscal
 ==========================================
 
-Para anular un Comprobante de Crédito Fiscal, dispone de un plazo de 24 horas
-a partir de su emisión.
+.. important::
+   Un comprobante de crédito fiscal solo se puede anular **EL MISMO DÍA** de su emisión.
+
 
 Para anular un comprobante de crédito fiscal que se emitió el mismo día diríjase al
-menú Facturación - Ventas y seleccione la opción Consulta general de
+menú Facturación Ventas y seleccione la opción Consulta general de
 movimientos de venta y en tipo de documento seleccionar Comprobante de
 crédito fiscal.
 

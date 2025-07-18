@@ -26,7 +26,4 @@ emitieron las facturas que desea anular.
 7. Ingresar el nombre de quién anula el documento.
 8. Ingresar el número de Dui.
 
-.. image:: /_static/datos_anulacion.png
-   :alt: Datos de anulación
-
 Y listo, la factura de consumidor final queda anulada. 

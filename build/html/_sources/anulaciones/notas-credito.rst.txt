@@ -9,16 +9,19 @@ control del comprobante de crédito fiscal que desea eliminar, para obtenerlos
 dirigirse a Utilidades y elegir la opción de Administrar documentos tributarios
 electrónicos.
 
-.. image:: /_static/administrar_dte.png
-   :alt: Administrar documentos tributarios electrónicos
+.. image:: /_static/menu_administrar_dte.png
+   :alt: Menú Administrar documentos tributarios electrónicos
 
 En la siguiente ventana debe seleccionar los documentos que han sido sellados.
 
 .. image:: /_static/documentos_sellados.png
    :alt: Documentos sellados
 
-Debe tomar los números desde el 5 en adelante y el tipo de documento debe de
+Debe tomar los **NÚMEROS SIGNIFICATIVOS** y el tipo de documento debe de
 decir CCF
+
+.. image:: /_static/nro_control.png
+   :alt: Número de control
 
 Luego debe dirigirse a Facturación ventas y seleccionar Generación ventas.
 Hacer clic en Importar CCF y digitar el número.
@@ -31,6 +34,9 @@ del comprobante.
 
 .. image:: /_static/nota_credito_automatica.png
    :alt: Nota de crédito automática
+
+.. important::
+   Si no aparece como documento: **NOTA DE CRÉDITO**, tiene que notificar al administrador del sistema.
 
 Sin realizar ninguna modificación hacer clic en el botón Facturar y en la siguiente
 ventana, hacer clic en Generar DTE
