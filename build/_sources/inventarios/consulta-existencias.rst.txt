@@ -1,0 +1,32 @@
+Consulta de existencias
+=======================
+
+Si desea verificar las existencias puede realizarlo de manera individual o en general.
+Para ver las existencias por individual en el menú de Inventarios seleccione la
+opción de Consulta de existencias
+
+.. image:: /_static/consulta_existencias_individual.png
+   :alt: Consulta de existencias individual
+
+Para consultar la existencia de un producto puede hacerlo de dos maneras, si
+recuerda el código del producto, debe ingresarlo en el campo de código de
+producto. Podrá ver toda la información del producto con ese código.
+
+En caso de no recordar su código, puede utilizar la ayuda ubicando el puntero sobre
+el campo de Código de producto y presionando la tecla F4. Aparecerán todos los
+productos ingresados.
+
+.. image:: /_static/ayuda_f4_productos.png
+   :alt: Ayuda F4 para productos
+
+Si desea ver todos los productos y sus existencias, debe dirigirse a Inventarios y
+seleccionar la opción Consulta de existencias de bodegas
+
+Se abrirá la siguiente ventana:
+
+.. image:: /_static/consulta_existencias_bodegas.png
+   :alt: Consulta de existencias de bodegas
+
+Aparecerán todos los productos y puede filtrarlos por Agrupación, Rubro o Marca,
+puede presionar la tecla Enter o el botón Consultar para ver el resultado. En
+Criterio también puede filtrar por nombre los productos que necesita consultar. 

@@ -1,0 +1,37 @@
+Comprobante de Crédito Fiscal
+=============================
+
+Una vez ingresado los proveedores, puede comenzar a registrar las compras. Se
+dirige al menú de Facturación Compras, y elige la opción de Comprobante de
+crédito fiscal
+
+Y se abrirá la siguiente ventana:
+
+.. image:: /_static/comprobante_credito_fiscal.png
+   :alt: Comprobante de crédito fiscal
+
+Para crear un nuevo registro, siga los siguientes pasos:
+
+1. Hacer clic en Nueva.
+2. Elegir la sucursal (Matriz o si tiene una o más sucursales)
+3. Botón Importar: Si la compra ya fue realizada y se emitió el DTE, puede
+   utilizar este botón para importar el archivo correspondiente. El sistema acepta
+   archivos en formato JSON, el cual es proporcionado por el proveedor, y
+   completará automáticamente la mayoría de los campos con la información
+   contenida en este archivo.
+4. Ingresar el NRC: En caso de no recordarlo, presionar F4 y saldrá todos los
+   proveedores registrados
+5. Ingresar el Prefijo.
+6. Ingresar el NRC CCF.
+7. Ingresar Código: Si no lo recuerda, presionar F4 y mostrará todos los
+   productos del catálogo.
+8. Agregar la Cantidad
+9. Agregar Costo Unitario.
+10. Seleccionar tipo de operación
+11. Seleccionar Clasificación
+12. Seleccionar Sector
+13. Seleccionar Tipo Costo.
+14. Hacer clic en el botón Guardar.
+
+Y listo, el sistema agrega automáticamente el producto al inventario al registrarlo
+mediante compras. 
