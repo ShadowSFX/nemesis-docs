@@ -13,5 +13,5 @@ de vendedores.
 4. Agregar DUI
 5. Hacer clic en Guardar. 
 
-.. image:: /_static/mantenimiento_vendores.png
+.. image:: /_static/mantenimiento_vendedores.png
    :alt: mantenimiento vendedores

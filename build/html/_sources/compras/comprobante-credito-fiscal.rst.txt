@@ -10,7 +10,7 @@ crédito fiscal:
 
 Y se abrirá la siguiente ventana:
 
-.. image:: /_static/ccf_comppras_inv.png
+.. image:: /_static/ccf_compras_inv.png
    :alt: Comprobante de crédito fiscal
 
 Para crear un nuevo registro, siga los siguientes pasos:
