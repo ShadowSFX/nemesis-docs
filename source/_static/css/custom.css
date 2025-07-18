@@ -38,6 +38,13 @@
     --input-background-color: #fcfcfc;
     --input-focus-border-color: #5f8cff;
 
+    /* Search results colors */
+    --search-result-text-color: #404040;
+    --search-result-snippet-color: #666666;
+    --search-card-background: #ffffff;
+    --search-card-border: #e1e4e5;
+    --search-card-hover-background: #f8f9fa;
+
     --admonition-note-background-color: #e7f2fa;
     --admonition-note-color: #404040;
     --admonition-note-title-background-color: #6ab0de;
@@ -99,6 +106,13 @@
         --code-literal-color: #faa;
         --input-background-color: #333537;
         --input-focus-border-color: #5f8cff;
+
+        /* Search results colors for dark mode */
+        --search-result-text-color: rgba(255, 255, 255, 0.9);
+        --search-result-snippet-color: rgba(255, 255, 255, 0.75);
+        --search-card-background: #3a3d41;
+        --search-card-border: #505356;
+        --search-card-hover-background: #44474a;
 
         --admonition-note-background-color: #303d4f;
         --admonition-note-color: #bfeeff;
@@ -167,6 +181,66 @@ a:visited {
     color: var(--link-color-visited);
 }
 
+/* Search Results Card-Style Styling */
+#search-results .search li {
+    background-color: var(--search-card-background) !important;
+    border: 1px solid var(--search-card-border) !important;
+    border-radius: 8px !important;
+    margin: 12px 0 !important;
+    padding: 16px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    transition: all 0.2s ease !important;
+    color: var(--search-result-text-color) !important;
+}
+
+#search-results .search li:hover {
+    background-color: var(--search-card-hover-background) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-1px) !important;
+}
+
+#search-results .search li a {
+    color: var(--link-color) !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    display: block !important;
+    margin-bottom: 8px !important;
+}
+
+#search-results .search li a:hover {
+    color: var(--link-color-hover) !important;
+    text-decoration: underline !important;
+}
+
+#search-results .search li p {
+    color: var(--search-result-snippet-color) !important;
+    margin: 0 !important;
+    line-height: 1.5 !important;
+    font-size: 14px !important;
+}
+
+/* Search result context and snippets */
+#search-results .context {
+    color: var(--search-result-text-color) !important;
+}
+
+.search .context,
+.search .snippet {
+    color: var(--search-result-text-color) !important;
+}
+
+/* Remove default search styling */
+#search-results .search li {
+    border-bottom: none !important;
+    list-style: none !important;
+}
+
+/* Search results container */
+#search-results .search {
+    padding: 0 !important;
+}
+
 /* Godot-style Layout: Center the entire documentation unit */
 @media only screen and (min-width: 769px) {
     .wy-body-for-nav {
@@ -221,9 +295,10 @@ a:visited {
     letter-spacing: 0.75px;
 }
 
-/* Navigation links */
+/* Navigation links with increased font size */
 .wy-menu-vertical a {
     color: var(--navbar-level-1-color);
+    font-size: 15px !important;
 }
 
 .wy-menu-vertical a:hover {
@@ -242,12 +317,19 @@ a:visited {
     background-color: var(--navbar-current-background-color);
     color: var(--navbar-level-2-color);
     border-color: var(--navbar-current-background-color);
+    font-size: 15px !important;
 }
 
 .wy-menu-vertical li.current a:hover,
 .wy-menu-vertical li.toctree-l2.current > a:hover,
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3 > a:hover {
     background-color: var(--navbar-current-background-color-hover);
+}
+
+/* Sidebar captions and headers */
+.wy-menu-vertical header,
+.wy-menu-vertical p.caption {
+    font-size: 15px !important;
 }
 
 /* Table styling */
