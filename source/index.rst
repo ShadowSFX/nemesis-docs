@@ -20,4 +20,5 @@ Guía de Sistema de Facturación Nemesis
    compras
    facturacion-ventas
    anulacion-documentos
+   correccion-dte
 
