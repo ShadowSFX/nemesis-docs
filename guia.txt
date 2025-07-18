@@ -1,421 +1,69 @@
-Guía de Sistema de Facturación
-Nemesis
-
-Módulo Inventarios................................................................................................................ 2
-Agrupaciones y rubros....................................................................................................... 2
-Catálogo de Productos.......................................................................................................5
-Inventario Físico.....................................................................................................................8
-Inventario físico por listado...........................................................................................9
-Compras................................................................................................................................13
-Registro de Proveedores..................................................................................................13
-Comprobante de Crédito Fiscal........................................................................................14
-Registro de Compras a Sujetos Excluidos del Impuesto................................................. 16
-Facturación de Ventas......................................................................................................... 17
-Registro de Vendedores...................................................................................................17
-Registro de Clientes......................................................................................................... 18
-Anulación de documentos.................................................................................................. 21
-Anulación de Factura de consumidor final....................................................................... 21
-Anulación de Comprobante de Crédito Fiscal..................................................................22
-Emitir notas de crédito......................................................................................................23
-
-​
-
-Módulo Inventarios
-El módulo de Inventario permite administrar los productos o servicios que se
-utilizarán en la facturación. Los ítems pueden organizarse por agrupaciones, y
-dentro de cada agrupación, por rubros, lo que facilita una clasificación más
-ordenada y personalizada según las necesidades del negocio. Desde este módulo
-es posible registrar nuevos productos, actualizar precios y gestionar el stock
-disponible para garantizar un control eficiente y preciso del inventario.
-
-Agrupaciones y rubros
-Para comenzar con la organización de los ítems, es necesario definir primero las
-agrupaciones y sus respectivos rubros. Para acceder a esta configuración siga
-estos pasos:
-1.​ Hacer clic en el módulo Inventario,
-2.​ Seleccionar la opción Mantenimiento a archivos maestros
-3.​ Elegir Mantenimiento al maestro de agrupaciones.
-Así como en la siguiente imagen:
-
-Una vez seleccionada la opción de Mantenimiento al maestro de agrupaciones
-se abrirá una nueva ventana donde le mostrará la tabla de agrupaciones creadas y
-de rubros . Si desea agregar una nueva agrupación siga los siguientes pasos:
-1.​ Hacer clic en el botón +
-2.​ Agregar un código para la agrupación.
-3.​ Agregar un nombre.
-
-4.​ Hacer clic en Aceptar.
-
-Para modificar el nombre de la agrupación:
-1.​ Seleccionar la agrupación que desea modificar
-2.​ Hacer clic en el botón en forma de lápiz.
-3.​ Modificar el nuevo nombre.
-4.​ Hacer clic en Aceptar.
-
-El nombre ha sido modificado y se refleja el cambio en la tabla.
-
-En la misma ventana, también podemos crear el rubro correspondiente a la
-agrupación recién creada. Para crearlo:
-1.​ Seleccionar una agrupación. Ejemplo, Agrupación General 5
-2.​ Bajar a la tabla de Rubros
-3.​ Hacer clic sobre el botón “+” para agregar un nuevo rubro.
-4.​ Agregar un código
-
-5.​ Agregar nombre.
-6.​ Hacer clic en Aceptar.
-
-Y listo, el rubro ya quedó agregado y asociado a una agrupación
-Si desea modificar o eliminar el rubro, puede hacer clic en el ícono de lápiz para
-editar su nombre, o en el ícono de menos (-) para eliminarlo.
-
-Otra opción para crear un rubro es acceder a Mantenimiento al maestro de
-rubros. Y para acceder a él, en el módulo de Inventarios, seleccionamos la opción
-de Mantenimiento a archivos maestros y luego Mantenimiento al maestro de
-rubros.
-
-Para crear un nuevo rubro:
-1.​ Hacer clic en el botón "Nuevo".
-2.​ Ingresar un código,
-3.​ Ingresar el nombre del rubro
-4.​ Seleccionar la agrupación a la que pertenece. En este caso, continuando
-con el ejemplo anterior, elegimos la Agrupación General 5.
-5.​ Hacer clic en Guardar.
-
-Una vez ingresados las agrupaciones y rubros, podemos comenzar a agregar
-productos al sistema.
-
-Catálogo de Productos
-Desde el menú de Inventarios, seleccionamos Mantenimiento de archivos
-Maestros, y luego Mantenimiento al maestro de productos.
-
-Al hacer clic nos abrirá la siguiente ventana:
-
-La mayoría de los campos que aparecen en esta ventana no se utilizarán. Solo será
-necesario completar los que se mencionan a continuación. Para crear un nuevo
-producto:
-1.​ Hacer clic en Nuevo
-
-1.​ Agregar un código de producto: Este campo permite ingresar hasta 14
-caracteres, los cuales pueden ser letras, números o una combinación de
-ambos. Se recomienda usar un formato que facilite la identificación del
-producto.Ejemplo: LB-RF12-SG, ó RF001.
-
-2.​ Agregar nombre: se debe ingresar el nombre del producto tal como desea
-que aparezca en el sistema. Se recomienda usar un nombre claro y
-específico para facilitar su identificación. Ej: Refrigeradora LG 14 pies, Laptop
-HP Pavilion 15, etc.
-3.​ Agregar unidad de medida (opcional): debe completarse según el tipo de
-producto. Solo es necesario ingresarlo si el producto requiere una unidad
-específica para su gestión.
-
-​
-4.​ Agregar código de rubro: Si conoce o recuerda el código del rubro creado
-puede digitarlo. En caso de no recordarlo, puede presionar F4 sobre esa
-casilla, lo que abrirá una ventana de ayuda con todos los códigos ya creados.
-Selecciona el código y presiona Enter.
-
-​
-Automáticamente se rellena el campo de Agrupación
-
-5.​ Agregar código de marca(opcional): Funciona de la misma manera que el
-código de rubro. La marca se crea desde el mantenimiento de marcas. Para
-agregarla al producto, solo debe presionar F4 y seleccionar el código de la
-marca que desea añadir.
-6.​ Seleccionar Afecta inventario: Este campo indica al sistema si lo que se
-está ingresando es un producto o un servicio. Si se trata de un producto
-tangible, se selecciona "Sí" para indicar que afecta al inventario, ya que tiene
-existencias. En el caso de ser un servicio, se selecciona "No", ya que no
-requiere gestión de inventario.
-7.​ Seleccionar Grava Iva: La mayoría de productos o servicios contienen iva, se
-le indica que sí.
-
-8.​ Agregar precio de venta:
-Si ya cuenta con los precios de venta, puede ingresarlos en esta sección. El
-sistema asignará automáticamente el precio correspondiente según se vayan
-realizando las facturaciones. Además, los nombres de los tipos de precio son
-modificables.
-
-Una vez que haya ingresado toda la información correspondiente al producto, debe
-hacer clic en Guardar. Si desea consultar, modificar o eliminar un producto,
-
-simplemente hace clic en los botones correspondientes. Para ver el producto
-anterior o siguiente, puede utilizar las flechas de navegación.
-
-Una vez que el catálogo de productos ha sido estructurado correctamente, puede
-proceder a realizar el inventario físico.
-
-Inventario Físico
-El inventario físico puede hacerse de dos maneras, ingresando las compras, o
-ingresando el inventario que se ha contado. En caso de que esté en proceso de
-crear el inventario físico en base a lo que se ingresó al sistema, puede imprimir el
-listado para la toma física, para realizar esta acción se dirige a Inventario físico y
-ajustes de inventario, y luego hacer clic en la opción de Listado para toma física.
-
-El sistema mostrará una ventana donde elegir cómo imprimir el listado de los
-productos según sea la necesidad, puede ser por agrupación, rubro o marca, y
-ordenarlos por código o por nombre. Incluir las existencias o listar sólo con
-existencias.
-Una vez seleccionada la opción, haga clic en Imprimir.
-
-Y se abrirá una nueva ventana donde muestra las siguientes opciones:
-
-Podemos elegir la vista preliminar para asegurarnos de cómo se imprimirá el listado.
-Así como se muestra en la siguiente imagen.
-
-Inventario físico por listado
-Cuando todo esté listo para ingresar los datos, diríjase a Inventarios, luego
-seleccione Inventario físico y ajustes de inventario, y finalmente elija Inventario
-físico por listado.
-
-Le aparecerá la siguiente ventana:
-
-La fecha del reporte es importante porque a partir de ella el sistema toma como
-referencia las existencias registradas.
-Puede elegir que el inventario se muestre por Agrupación o Rubro, y seleccionar el
-orden Por Nombre, o Por Código, luego hacer clic en Ingresar
-
-La columna Existen es lo que está registrado en el sistema, y Físico es lo que se
-ha contado. Al ser un inventario físico la columna Existen debería estar en blanco. A
-la vez puede agregar el costo unitario de cada producto.
-
-Hacer clic en el botón de Generar Inventario y hacer clic en Sí
-
-Si desea verificar las existencias puede realizarlo de manera individual o en general.
-Para ver las existencias por individual en el menú de Inventarios seleccione la
-opción de Consulta de existencias
-
-Para consultar la existencia de un producto puede hacerlo de dos maneras, si
-recuerda el código del producto, debe ingresarlo en el campo de código de
-producto. Podrá ver toda la información del producto con ese código.
-
-En caso de no recordar su código, puede utilizar la ayuda ubicando el puntero sobre
-el campo de Código de producto y presionando la tecla F4. Aparecerán todos los
-productos ingresados.
-
-Si desea ver todos los productos y sus existencias, debe dirigirse a Inventarios y
-seleccionar la opción Consulta de existencias de bodegas
-
-Se abrirá la siguiente ventana:
-
-Aparecerán todos los productos y puede filtrarlos por Agrupación, Rubro o Marca,
-puede presionar la tecla Enter o el botón Consultar para ver el resultado. En
-Criterio también puede filtrar por nombre los productos que necesita consultar.
-
-Compras
-El inventario también se actualiza a través de las compras, pero antes de hacerlo es
-necesario registrar a los proveedores.
-
-Registro de Proveedores
-Para realizarlo, debe dirigirse al menú de Proveedores y hacer clic en
-Mantenimiento de proveedores.
-
-Y le aparecerá la siguiente pestaña:
-
-Hacer clic en el botón Nuevo para agregar un nuevo registro y completar los
-siguientes campos: Código de proveedor, Nombres, Dirección, Nación, Giro, Si
-es Persona Natural o Jurídica, Teléfonos, Dui, Nit y Número de registro. Luego
-hacer clic en Guardar. Los demás campos son opcionales.
-
-Comprobante de Crédito Fiscal
-Una vez ingresado los proveedores, puede comenzar a registrar las compras. Se
-dirige al menú de Facturación Compras, y elige la opción de Comprobante de
-crédito fiscal
-
-Y se abrirá la siguiente ventana:
-
-Para crear un nuevo registro, siga los siguientes pasos:
-1.​ Hacer clic en Nueva.
-2.​ Elegir la sucursal (Matriz o si tiene una o más sucursales)
-3.​ Botón Importar: Si la compra ya fue realizada y se emitió el DTE, puede
-utilizar este botón para importar el archivo correspondiente. El sistema acepta
-archivos en formato JSON, el cual es proporcionado por el proveedor, y
-completará automáticamente la mayoría de los campos con la información
-contenida en este archivo.
-4.​ Ingresar el NRC: En caso de no recordarlo, presionar F4 y saldrá todos los
-proveedores registrados
-5.​ Ingresar el Prefijo.
-6.​ Ingresar el NRC CCF.
-7.​ Ingresar Código: Si no lo recuerda, presionar F4 y mostrará todos los
-productos del catálogo.
-8.​ Agregar la Cantidad
-9.​ Agregar Costo Unitario.
-10.​ Seleccionar tipo de operación
-11.​Seleccionar Clasificación
-12.​ Seleccionar Sector
-13.​ Seleccionar Tipo Costo.
-14.​Hacer clic en el botón Guardar.
-
-Y listo, el sistema agrega automáticamente el producto al inventario al registrarlo
-mediante compras.
-
-Registro de Compras a Sujetos Excluidos del Impuesto.
-Para registrar Compras a Sujetos Excluidos del Impuesto, en el mismo menú de
-Facturación de Compras.
-
-Aparecerá la siguiente ventana. Haga clic en Nuevo.
-
-1.​ Agregar Proveedor. En caso de no recordar el código, puede presionar F4
-para abrir la ventana de ayuda, luego elegir el proveedor y automáticamente
-se agregara su información.
-2.​ Hacer clic en Agregar detalle
-3.​ Agregar código. En caso de no recordar el código, puede presionar F4 para
-abrir la ventana de ayuda, luego elegir el producto.
-4.​ Agregar cantidad.
-5.​ Agregar precio unitario.
-6.​ Seleccionar Tipo de Operación y elegir No Gravada
-7.​ Seleccionar clasificación
-8.​ Seleccionar sector
-9.​ Seleccionar tipo de costo
-10.​ Hacer clic en Ok.
-11.​ Hacer clic en Guardar.
-
-Facturación de Ventas
-Antes de realizar la generación de facturas deberá tener registrado vendedores y
-clientes.
-
-Registro de Vendedores
-Para los vendedores nos dirigimos a Archivos maestros y seleccionamos maestro
-de vendedores.
-
-1.​
-2.​
-3.​
-4.​
-5.​
-
-Hacer clic Nuevo
-Agregar un código
-Agregar un nombre (A lado del código)
-Agregar DUI
+Guía para corregir archivos JSON
+DTE rechazado por correo electrónico.
+DTE rechazado por NRC no correspondiente a contribuyente
+DTE rechazado por nit de contribuyente no existente
+DTE rechazado por código de actividad
+Envío de documentos y recibir el sello por hacienda.
+1. Diríjase al menú Utilidades > Administrar documentos tributarios electrónicos.
+2. Seleccione el tipo de documento (Factura de consumidor final, comprobante de
+crédito fiscal, nota de crédito,etc) que ha sido rechazado y el estado debe estar en
+Rechazado.
+Hacienda puede rechazar documentos por diversas razones, entre ellas: errores en el
+correo electrónico, NRC, NIT o en el número de actividad económica. A continuación, se
+presentan algunos ejemplos de estos errores y las formas de corregirlos para reenviar los
+documentos y lograr que sean debidamente sellados por Hacienda.
+DTE rechazado por correo electrónico.
+Haga clic en el botón de RESPUESTA MH 📕y se abrirá la siguiente ventana:
+⚠️ Es importante prestar atención al mensaje que emite Hacienda para identificar el motivo
+del rechazo. Cuando el mensaje indica que el documento no cumple con el esquema
+JSON, se debe revisar la sección de observaciones, donde se detalla el problema
+específico.
+Además, el mensaje suele señalar el campo exacto del archivo JSON donde se encuentra
+el error. Por ejemplo: #receptor/correo indica que el error está en el campo del correo
+electrónico del receptor.
+En la parte inferior derecha de la pantalla encontrará un botón para corregir el correo
+electrónico. Al hacer clic sobre él, el sistema ajustará automáticamente el correo,
+agregando el punto que hacía falta para que sea válido.
+DTE rechazado por NRC no correspondiente a
+contribuyente
+Otra razón por la que Hacienda puede rechazar un documento es que el Número de
+Registro (NRC) del receptor sea incorrecto. Al revisar la respuesta de Hacienda, se puede
+observar en la descripción del mensaje el siguiente detalle:
+[receptor.nrc] NO CORRESPONDE A CONTRIBUYENTE, lo que indica que el NRC
+ingresado no está asociado a ningún contribuyente registrado en el sistema de Hacienda.
+Para corregir el NRC, diríjase a la parte inferior de la pantalla, junto al botón para corregir el
+correo electrónico, y haga clic en el botón "Corregir N.R.C.". Esto le permitirá actualizar el
+dato con la información correcta.
+Ingrese el NRC correcto y haga clic en OK. Luego, el sistema mostrará un mensaje
+confirmando que el NRC ha sido actualizado exitosamente.
+DTE rechazado por nit de contribuyente no
+existente
+Cuando Hacienda rechaza un documento debido a un error en el NIT, es necesario corregir
+directamente el archivo JSON. En el mensaje de respuesta, se indicará la ubicación
+exacta del error dentro del archivo, por ejemplo: [receptor.nit], lo que señala que el
+problema se encuentra en el campo del NIT del receptor.
+Para corregir el archivo debe hacer clic en el botón llamado JSON
+Se abrirá la siguiente ventana y debe hacer clic en el botón Editar
+En este archivo debe buscar el campo receptor.nit
+Una vez que haya corregido el problema en el archivo JSON, asegúrese de que las
+comillas al inicio y al final del valor del campo no se hayan eliminado, y que la coma
+que separa ese campo del siguiente se mantenga. De lo contrario, se romperá la
+estructura del archivo JSON y generará errores al intentar enviarlo nuevamente..
 Hacer clic en Guardar.
-
-Registro de Clientes
-Para crear una nueva ficha de cliente, diríjase al menú Clientes y seleccione
-Mantenimiento de Clientes. Luego, haga clic en Nuevo.
-No es necesario completar todos los campos, pero se recomienda ingresar al menos
-los siguientes: Código de cliente, nombres, apellidos, dirección, ciudad, municipio,
-tipo de cliente (persona natural, jurídica o extranjera), email (para los DTE),
-actividad económica, teléfonos, DUI, NIT y NRC.
-Una vez completados los campos necesarios, haga clic en Guardar para registrar el
-cliente.
-
-Para generar facturas se dirige al menú Facturación Ventas y selecciona la opción
-Generación de facturas
-
-Hacer clic en Aceptar en la siguiente ventana
-
-Se abrirá la siguiente ventana de Facturación y deberá seguir los siguientes pasos.
-1.​ Agregar vendedor. En caso de no recordar el código del vendedor, puede
-presionar F4 para que le muestre todos los que están registrados.
-2.​ Seleccionar documento: Factura de consumidor final
-3.​ Seleccionar el checkbox de Cliente (opcional), para agregar al cliente. Si no
-recuerda su código, usar la ayuda con F4.
-4.​ Agregar código. Puede utilizar la ayuda presionando F4 o, si lo prefiere,
-escribir directamente el nombre del producto. El sistema le mostrará una lista
-con las coincidencias y podrá seleccionar el producto que está buscando.
-5.​ Agregar cantidad.
-6.​ Agregar el tipo de precio. Debe agregar el tipo de precio, el cual puede ser
-A, B o C, según corresponda. Esto dependerá de si ha definido diferentes
-precios para el producto, como por ejemplo un precio normal o un precio
-especial.
-
-Una vez que haya agregado los productos a facturar, haga clic en el botón Facturar
-ubicado en la parte superior.
-Si el cliente ya fue registrado previamente, su información aparecerá
-automáticamente. En caso contrario, puede proceder como "Clientes Varios"; sólo
-asegúrese de completar los campos de Dirección, Departamento y Municipio.
-
-Finalmente, haga clic en Generar DTE para emitir el comprobante.
-
-Una vez generado el DTE, se mostrará un mensaje en la parte superior izquierda de
-la pantalla indicando que el documento ha sido recibido y sellado por Hacienda.
-Se abrirá una ventana que le permitirá guardar el documento en su ordenador.
-Podrá elegir entre visualizar una vista previa (Preview), guardarlo como PDF
-(Save as PDF) o imprimirlo directamente (Print), según su preferencia.
-
-El documento se guarda como un archivo PDF en su ordenador, en la ubicación que
-usted elija para facilitar su acceso posterior. A continuación, podrá visualizar cómo
-se presenta el comprobante generado.
-
-Anulación de documentos
-Anulación de Factura de consumidor final.
-Para anular una factura de consumidor final, dispone de un plazo de hasta 90
-días desde su emisión. Para realizar la anulación dentro del sistema, diríjase al
-menú Facturación - Ventas y seleccione la opción Consulta general de
-movimientos de venta.
-En el campo Tipo de documento, seleccione Factura de consumidor final. Luego,
-en el rango de fechas, puede ajustar la fecha según el período en el que se
-emitieron las facturas que desea anular.
-
-1.​ Selecciona la factura que desea eliminar
-
-2.​ Hacer clic en Ver.
-3.​ Hacer clic en Eliminar de la siguiente ventana.
-
-4.​
-5.​
-6.​
-7.​
-8.​
-
-¿Seguro de eliminar? Hacer clic en Sí
-¿Desea guardarlo como anulado? Hacer clic en sí.
-Ingresar el motivo de anulación
-Ingresar el nombre de quién anula el documento.
-Ingresar el número de Dui.
-
-Y listo, la factura de consumidor final queda anulada.
-
-Anulación de Comprobante de Crédito Fiscal.
-Para anular un Comprobante de Crédito Fiscal, dispone de un plazo de 24 horas
-a partir de su emisión.
-Para anular un comprobante de crédito fiscal que se emitió el mismo día diríjase al
-menú Facturación - Ventas y seleccione la opción Consulta general de
-movimientos de venta y en tipo de documento seleccionar Comprobante de
-crédito fiscal.
-En el campo Tipo de documento, seleccione Comprobante de Crédito Fiscal.
-Luego, en el rango de fechas, agregar la fecha del mismo día que emitió el
-comprobante.
-
-Selecciona la factura que desea eliminar
-1.​ Hacer clic en Ver.
-2.​ Hacer clic en Eliminar de la siguiente ventana.
-
-3. ¿Seguro de eliminar? Hacer clic en Sí
-4. ¿Desea guardarlo como anulado? Hacer clic en sí.
-5. Ingresar el motivo de anulación
-6. Ingresar el nombre de quién anula el documento.
-7. Ingresar el número de Dui.
-
-Y listo, el comprobante de crédito fiscal queda anulado.
-
-Emitir notas de crédito
-Si el plazo ha vencido, deberá emitir una Nota de Crédito para proceder con la
-anulación del documento.
-Antes de emitir la nota de crédito debe tener los últimos dígitos del número de
-control del comprobante de crédito fiscal que desea eliminar, para obtenerlos
-dirigirse a Utilidades y elegir la opción de Administrar documentos tributarios
-electrónicos.
-
-En la siguiente ventana debe seleccionar los documentos que han sido sellados.
-
-Debe tomar los números desde el 5 en adelante y el tipo de documento debe de
-decir CCF
-
-Luego debe dirigirse a Facturación ventas y seleccionar Generación ventas.
-Hacer clic en Importar CCF y digitar el número.
-
-Automáticamente aparecerá en Documento como Nota de Crédito y la información
-del comprobante.
-
-Sin realizar ninguna modificación hacer clic en el botón Facturar y en la siguiente
-ventana, hacer clic en Generar DTE
-
-Se creará la nota de crédito y a la vez estará invalidando el documento.
-
-Para verificar que sí se invalido o se creó la nota de crédito dirigirse a Utilidades y
-seleccionar Administrar documentos tributarios electrónicos. Debe seleccionar
-los documentos que han sido Sellados. Si fue una factura de Consumidor final,
-aparecerá como Inválida y si fue un ccf aparecerá como Nota/Credito
-
-
+DTE rechazado por código de actividad
+El motivo del rechazo por parte de Hacienda es que el código de actividad indicado no
+corresponde al contribuyente. Este código se encuentra en el campo
+[emisor.codActividad].
+Para corregirlo, debemos abrir el archivo JSON del documento y ubicar el campo
+[emisor.codActividad].
+Se debe verificar cuál es el código y la descripción de la actividad económica
+correspondiente al contribuyente.
+En este ejemplo, la actividad es Programación informática, con el código 62010.
+⚠️ Asegurarse no borrar comillas dobles ni la coma.
+Finalmente clic en Guardar.
+Envío de documentos y recibir el sello por
+hacienda.
+Para enviarlo nuevamente y sea sellado por hacienda, haga clic en el botón de Enviar a
+M.H. y proveedor de servicios.
+El estatus del documento cambiará a Sellado y puede hacer clic en el botón Enviar a
+cliente para enviarlo nuevamente al cliente.
