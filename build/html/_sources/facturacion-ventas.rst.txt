@@ -6,7 +6,8 @@ clientes.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contenidos:
 
    facturacion/registro-vendedores
    facturacion/registro-clientes
-   facturacion/generacion-facturas 
+   facturacion/generacion-facturas

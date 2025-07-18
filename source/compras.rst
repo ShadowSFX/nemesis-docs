@@ -6,7 +6,8 @@ necesario registrar a los proveedores.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contenidos:
 
    compras/registro-proveedores
    compras/comprobante-credito-fiscal
-   compras/compras-sujetos-excluidos 
+   compras/compras-sujetos-excluidos

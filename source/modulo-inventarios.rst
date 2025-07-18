@@ -10,9 +10,10 @@ disponible para garantizar un control eficiente y preciso del inventario.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contenidos:
 
    inventarios/agrupaciones-rubros
    inventarios/catalogo-productos
    inventarios/inventario-fisico
    inventarios/inventario-fisico-listado
-   inventarios/consulta-existencias 
+   inventarios/consulta-existencias
