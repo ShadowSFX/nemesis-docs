@@ -11,6 +11,7 @@ No es necesario completar todos los campos, pero se recomienda ingresar al menos
 los siguientes:
 
 * Código de cliente
+
 .. important::
 
    Se recomienda utilizar el NRC del cliente como código de cliente en lugar de usar el correlativo asignado por el sistema.
