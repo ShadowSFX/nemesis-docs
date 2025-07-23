@@ -1,4 +1,4 @@
-DTE Rechazado por NIT de Contribuyente No Existente
+NIT no corresponde al contribuyente o no existe
 ===================================================
 
 **Problema**: El NIT del receptor es incorrecto o no existe.

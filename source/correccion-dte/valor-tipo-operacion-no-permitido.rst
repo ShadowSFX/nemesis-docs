@@ -1,4 +1,4 @@
-DTE Rechazado por Valor Tipo Operación No Permitido
+Valor Tipo Operación No Permitido
 ===================================================
 
 **Problema**: El valor del tipo de operación no es permitido.

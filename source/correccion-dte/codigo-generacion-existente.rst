@@ -1,4 +1,4 @@
-DTE Rechazado por Código de Generación Existente
+Código de Generación Existente
 ================================================
 
 **Problema**: El código de generación ya existe en hacienda.

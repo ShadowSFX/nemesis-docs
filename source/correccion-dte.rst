@@ -29,4 +29,5 @@ Hacienda puede rechazar documentos por diversas razones, entre ellas: errores en
    correccion-dte/nit-no-existente
    correccion-dte/codigo-actividad
    correccion-dte/valor-tipo-operacion-no-permitido
+   correccion-dte/calculo-incorrecto
    correccion-dte/reenvio-documentos

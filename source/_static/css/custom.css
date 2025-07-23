@@ -101,8 +101,8 @@
 
         --hr-color: #555;
         --table-row-odd-background-color: #3b3e41;
-        --code-background-color: #434649;
-        --code-border-color: #505356;
+        --code-background-color: #1f2937;
+        --code-border-color: #374151;
         --code-literal-color: #faa;
         --input-background-color: #333537;
         --input-focus-border-color: #5f8cff;
@@ -531,4 +531,84 @@ p, article ul, article ol, .wy-plain-list-disc, .wy-plain-list-decimal,
     background-color: transparent;
     font-weight: inherit;
     padding: 0;
+}
+
+/* Syntax highlighting for code blocks */
+.rst-content div[class^="highlight"] {
+    background-color: var(--code-background-color);
+    border: 1px solid var(--code-border-color);
+    border-radius: 4px;
+    margin: 16px 0;
+}
+
+.rst-content div[class^="highlight"] pre {
+    background-color: var(--code-background-color);
+    color: var(--body-color);
+    margin: 0;
+    padding: 12px;
+    overflow-x: auto;
+}
+
+/* Syntax highlighting tokens for light theme */
+:root {
+    --syntax-string: #d73e48;
+    --syntax-number: #0969da;
+    --syntax-boolean: #a626a4;
+    --syntax-null: #a626a4;
+    --syntax-key: #0969da;
+    --syntax-comment: #6a737d;
+    --syntax-bracket: #24292f;
+}
+
+/* Syntax highlighting tokens for dark theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --syntax-string: #7dd3fc;    /* Light blue for string values */
+        --syntax-number: #fbbf24;    /* Yellow/orange for numbers */
+        --syntax-boolean: #fb7185;   /* Pink/red for booleans */
+        --syntax-null: #fb7185;      /* Pink/red for null */
+        --syntax-key: #7dd3fc;       /* Light blue for object keys */
+        --syntax-comment: #6b7280;   /* Gray for comments */
+        --syntax-bracket: #e5e7eb;   /* Light gray for brackets */
+    }
+}
+
+/* Apply syntax highlighting colors */
+.rst-content div[class^="highlight"] .s,    /* strings */
+.rst-content div[class^="highlight"] .s1,
+.rst-content div[class^="highlight"] .s2 {
+    color: var(--syntax-string);
+}
+
+.rst-content div[class^="highlight"] .m,    /* numbers */
+.rst-content div[class^="highlight"] .mi,
+.rst-content div[class^="highlight"] .mf,
+.rst-content div[class^="highlight"] .mh,
+.rst-content div[class^="highlight"] .mo {
+    color: var(--syntax-number);
+}
+
+.rst-content div[class^="highlight"] .kc,   /* constants like true, false, null */
+.rst-content div[class^="highlight"] .kd {
+    color: var(--syntax-boolean);
+}
+
+.rst-content div[class^="highlight"] .na,   /* attribute names / object keys */
+.rst-content div[class^="highlight"] .nd,
+.rst-content div[class^="highlight"] .nl {
+    color: var(--syntax-key);
+}
+
+.rst-content div[class^="highlight"] .c,    /* comments */
+.rst-content div[class^="highlight"] .c1,
+.rst-content div[class^="highlight"] .cm,
+.rst-content div[class^="highlight"] .cp,
+.rst-content div[class^="highlight"] .cs {
+    color: var(--syntax-comment);
+    font-style: italic;
+}
+
+.rst-content div[class^="highlight"] .p,    /* punctuation/brackets */
+.rst-content div[class^="highlight"] .o {
+    color: var(--syntax-bracket);
 } 

@@ -1,4 +1,4 @@
-DTE Rechazado por Correo Electrónico
+Correo Electrónico Inválido
 ====================================
 
 **Problema**: El correo electrónico del receptor no cumple con el formato requerido.

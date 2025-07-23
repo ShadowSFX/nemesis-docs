@@ -1,5 +1,5 @@
-DTE Rechazado por Código de Actividad
-=====================================
+Código de Actividad no corresponde al contribuyente
+===================================================
 
 **Problema**: El código de actividad indicado no corresponde al contribuyente.
 

@@ -1,4 +1,4 @@
-DTE Rechazado por NRC No Correspondiente a Contribuyente
+NRC No Correspondiente a Contribuyente
 ========================================================
 
 **Problema**: El Número de Registro (NRC) del receptor es incorrecto.

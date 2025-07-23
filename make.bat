@@ -10,6 +10,12 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
+REM Delete contents of build directory but keep the directory itself
+if exist "%BUILDDIR%" (
+	for /D %%i in ("%BUILDDIR%\*") do rd /s /q "%%i"
+	for %%i in ("%BUILDDIR%\*") do del /f /q "%%i"
+)
+
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
 	echo.
