@@ -23,11 +23,11 @@ Hacienda puede rechazar documentos por diversas razones, entre ellas: errores en
    :maxdepth: 2
    :caption: Tipos de Rechazo:
 
-   correccion-dte/codigo-generacion-existente
    correccion-dte/correo-electronico
    correccion-dte/nrc-no-correspondiente
    correccion-dte/nit-no-existente
    correccion-dte/codigo-actividad
    correccion-dte/valor-tipo-operacion-no-permitido
    correccion-dte/calculo-incorrecto
+   correccion-dte/codigo-generacion-existente
    correccion-dte/reenvio-documentos
